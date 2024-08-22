@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>Khorasani Kitchen</title>
+</head>
+<body>
+    
+  
+    <button id="openSlideshow">More Information</button>
+
+
+    <div id="slideshowModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="https://media.discordapp.net/attachments/1272605727264870514/1276227051690528829/BMFOODS.jpg?ex=66c8c290&is=66c77110&hm=cc86bf8d071eeb8def0755485afb054df31705df07682687843a385e938f2e82&=&format=webp&width=541&height=701" alt="Image1" style="width:100%">
+                </div>
+  
+            </div>
+        </div>
+ </div>
+
+
+<header class="trulia-nav">
+  <section class="trulia-nav-left">
+    <div class="trulia-nav-item">
+      <img src="https://cdn.discordapp.com/attachments/1272605727264870514/1276243954538643478/BMCateringTransparent.png?ex=66c8d24e&is=66c780ce&hm=f6b6a2c2bf94d092fec40ce52c492182eb754230df7b54199b22c8cf8914cd85&" class="BMLOGO">
+    </div>
+   <p href="#" Class="NavTextOwo">Locations </a>
+     <p Class="NavTextOwo">Contact</p>
+    <p Class="NavTextOwo">Allergy Information</p>
+    <p Class="NavTextOwo2">Cart</p>
+  </section>
+  <section class="trulia-nav-right">
+    <div class="trulia-nav-item">Saved Homes</div>
+    <div class="trulia-nav-item">Saved Searches</div>
+    <div class="trulia-nav-item"><span>j</span>jsir</div>      
+  </section>    
+</header>
+
+<section class="trulia-breadcrumb-container">
+  <div class="trulia-breadcrumb-text">
+    <h4></h4>
+    <p></p>
+  </div>
+</section>
+
+
+
+
+<main class="trulia-grid">
+
+
+  <!-- Example grid-item -->
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-1">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <div>
+      
+    <ul class="trulia-house-facts">
+
+
+      <li class="trulia-house-price"><h3>Chicken Tikka Platter</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+            <li class="trulia-house-beds">$14.99</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        <p>Well-done chicken tikka over rice of your choice of brown or white rice.</p>
+      </li>
+    </ul>
+    </div>
+    
+  </section>
+
+
+    <section class="trulia-grid-item">
+      <div class="trulia-house-image trulia-house-image-2">
+      </div>
+      <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+      <ul class="trulia-house-facts">
+        <li class="trulia-house-price"><h3>Skewered Beef Over Rice</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+        <li class="trulia-house-stats">
+          <ul>
+            <ul class="bed-icon-line">
+  
+              <li class="trulia-house-beds">$16.99</li>
+            </ul>
+  
+          </ul>
+        </li>
+        <li class="trulia-house-address">
+          <p>Grilled beef cubes over rice of your choice of brown or white rice.</p>
+        </li>
+      </ul>
+    </section>
+
+
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-3">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <ul class="trulia-house-facts">
+      <li class="trulia-house-price"><h3>Chicken & Beef Combo</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+
+            <li class="trulia-house-beds">$16.99</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        <p>Well-done chicken and grilled beef cubes over rice of your choice of brown or white rice.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-4">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <ul class="trulia-house-facts">
+      
+      <li class="trulia-house-price"><h3>Creamy Vegetable Stew</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+
+            <li class="trulia-house-beds">$12.99</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        
+        <p>Broccoli, cauliflower, potatoes softened in creamy sauce.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-5">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <ul class="trulia-house-facts">
+      <li class="trulia-house-price"><h3>Buttered Biryani</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+
+            <li class="trulia-house-beds">$10.99</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        <p>Biryani rice with butter, spices, garnish, and topped with roasted almond slivers. </p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-6">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <ul class="trulia-house-facts">
+      <li class="trulia-house-price"><h3>Grilled Spicy Salmon</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+
+            <li class="trulia-house-beds">$15.99</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        <p>Grilled salmon made spicy, and served with a side of vegetables.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-7">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <ul class="trulia-house-facts">
+      <li class="trulia-house-price"><h3>Smothered Chicken Steak</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+
+            <li class="trulia-house-beds">$14.75</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        <p>Juicy chicken steak, smothered in grilled onions, tomatoes, and peppers.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-8">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <ul class="trulia-house-facts">
+      <li class="trulia-house-price"><h3>Signature Steak</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+
+            <li class="trulia-house-beds">$18.99</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        <p>Steak cooked to your preference, served with broccoli and mashed potatoes.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="trulia-grid-item">
+    <div class="trulia-house-image trulia-house-image-9">
+    </div>
+    <button class="add-to-order-btn" onclick="openOrderModal()">Add to Order</button>
+    <ul class="trulia-house-facts">
+      <li class="trulia-house-price"><h3>Lamb Chops</h3> <img class="arrow-svg" src="img/up-sign.svg"> </li>
+      <li class="trulia-house-stats">
+        <ul>
+          <ul class="bed-icon-line">
+
+            <li class="trulia-house-beds">$18.20</li>
+          </ul>
+
+        </ul>
+      </li>
+      <li class="trulia-house-address">
+        <p>Savory Lamb Chops decorated in garnish.</p>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+
+
+<section class="real-estate-insights">
+  <h2></h2>
+  <p><br>
+   <p> At B&M Catering, we specialize in bringing a taste of home to every event. Whether it’s a wedding, corporate event, or a private party, our passion for food and dedication to service will make your occasion unforgettable. </p>
+</section>
+</div>
+
+<!--- Order Confirm -->
+<!-- Modal Structure -->
+<div id="orderConfirmationModal" class="order-modal">
+  <div class="order-modal-content">
+      <!-- Close button -->
+      <span class="order-close-btn" onclick="closeOrderModal()">&times;</span>
+      <p>Added to order!</p>
+  </div>
+</div>
+
+<style>
+  /* Simplified Modal CSS */
+  #orderConfirmationModal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      padding-top: 60px;
+  }
+
+  .order-modal-content {
+      background-color: white;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 300px;
+      text-align: center;
+  }
+</style>
+
+
+<footer>
+  <ul class="footer-links">
+    <li><a href="#" >Hiring information</a></li>
+    <li><a href="#" >About</a></li>
+    <li> <a href="#" >Advertisement Policy</a></li>
+    <li> <a href="#" >Terms of Use</a></li>
+    <li><a href="#" >Help</a></li>
+  </ul>
+  <ul class="copyright">
+    <li></li>
+  </ul>
+</footer>
+
+<!-- Order Confirmation Modal -->
+<div id="orderConfirmationModal" class="order-modal">
+    <div class="order-modal-content">
+        <span class="order-close-btn" onclick="closeOrderModal()">&times;</span>
+        <p>Added to order!</p>
+    </div>
+</div>
+
+
+
+</body>
+</html>
